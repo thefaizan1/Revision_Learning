@@ -6,7 +6,7 @@ app.use(express.json())
 
 
 //database connection
-mongoose.connect("mongodb+srv://admin:admin@cluster0.nlj23qg.mongodb.net/userappnew")
+mongoose.connect("Connection string(Can't show it here for obvious reasons)")
 
 const User = mongoose.model('Users',{username:String,password:String})
 
